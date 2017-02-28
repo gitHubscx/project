@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dwr PUBLIC "-//GetAhead Limited//DTD Direct Web Remoting 3.0//EN" "http://getahead.org/dwr//dwr30.dtd">
+<dwr>
+    <allow>
+        <create javascript="TbqmSalesOrderDwr" creator="spring">
+            <param name="beanName" value="tbqmSalesOrderDwr"></param>
+        </create>
+    </allow>
+    <!-- 设置将所有的实体类转化为bean -->
+    <convert match="com.sunsoft.ibatis.tablebean.*" converter="bean"/>
+</dwr>
