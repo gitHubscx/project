@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <!-- springUtils spring注入bean-->
+    <bean class="com.springUtil.SpringBeansUtil" lazy-init="false"></bean>
